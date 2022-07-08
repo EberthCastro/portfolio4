@@ -1,0 +1,104 @@
+.a{
+    height: 100vh;
+    display: flex;    
+}
+.a-left{
+    flex: 1;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.a-right{
+    flex: 1;
+}
+
+.a-left-text{
+    width: 55%;    
+    margin-top: 200px;
+    margin-left: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.a-text1{
+    color: rgba(70, 23, 255, 0.5);
+    font-size: 15px;
+}
+.a-text2{
+    color: #A8ABB3;
+    font-size: 15px;
+    
+}
+
+/* Buttons */
+.a-buttons{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    width: 50%;
+    margin: 40px 0px 0 180px;
+    height: 50px;
+}
+.a-buttons-hire{
+    background: rgba(70, 23, 255, 0.85);
+    box-shadow: 1px 11px 39px rgba(52, 5, 245, 0.25);
+    border: 1px solid #4617FF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    width: 30%;
+    height: 60%;
+    cursor: pointer;
+}
+.a-buttons-project{
+    background: #FFFFFF;
+    border: 1px solid #4617FF;
+    border-radius: 5px;
+    color: #4617ff;
+    width: 50%;
+    height: 60%;
+    cursor: pointer;
+}
+
+/* End Buttons */
+
+.a-right-card{
+    width: 50%;    
+    border-radius: 10px;
+    
+}
+.a-img{
+    width: 110%;
+    height: 75vh;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 480px){
+    .a{
+        display: flex;
+        flex-direction: column;
+    }
+    .a-img{
+        width: 280px;
+        height: 300px;        
+        margin: 10px 0px 0 60px;
+
+    }
+    .a-left-text{
+        position: absolute;
+        margin: 150px;
+        padding: 0;
+        width: 280px;
+    }
+    .a-text2{
+        padding-left: 40px;
+    }
+    .a-buttons{
+        display: none;
+    }
+}
