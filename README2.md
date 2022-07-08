@@ -1,1 +1,0 @@
-This is a little portfolio project based on React.
