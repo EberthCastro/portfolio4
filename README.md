@@ -8,6 +8,8 @@ For this project I used two libraries:
 - "npm i react-icons"  wich import the icons for navbar in the size for mobile.
 - "npm i emailjs-com" wich allow send the information from the form to emial associated previously vinculated when you sign in: emailjs.com
 
+![Alt text](https://github.com/EberthCastro/portfolio4/blob/master/src/images/screenshots/emailjs.png)
+
 
 
 
