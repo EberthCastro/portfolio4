@@ -1,0 +1,106 @@
+
+.nav{
+    
+    width: 200vh;
+}
+
+.navbar{
+    display: flex;    
+    padding: 10px 7px 0 90px;
+    
+}
+
+.logo{
+    
+width: 172px;
+height: 83px;
+left: 113px;
+top: 38px;
+padding: 0 36px;
+
+font-family: 'Prosto One';
+font-style: normal;
+font-weight: 400;
+font-size: 67px;
+line-height: 83px;
+color: rgba(30, 36, 56, 0.86);
+text-shadow: 5px 10px 4px #3152FF;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    width: 50%;   
+    margin-left: 250px; 
+}
+
+
+.links a{
+    text-decoration: none;
+    color: black;
+}
+
+div header nav a:hover{
+    color: #3152FF;
+    
+}
+.nav-btn{
+    
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+    
+}
+
+
+@media screen and (max-width: 480px) {
+    div header .nav-btn{
+        visibility: visible;
+        opacity: 1;
+        
+    }
+    div header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 35%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;        
+        background-color: #3152FF;
+        transition: 1s;
+        transform: translateY(-2vh);
+    }
+    div header .responsive_nav{
+        transform: none;
+    }
+
+    nav .nav-close-btn{
+        position: absolute;
+        top: 8rem;
+        right: 8rem;
+
+    }
+
+    nav a{
+        font-size: 1.5rem;
+    }
+    .logo{
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+    .links{
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+    .navbar{
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+}

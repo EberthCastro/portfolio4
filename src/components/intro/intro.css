@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Prosto+One&display=swap');
+
+
+
+.i{
+    display: flex;
+    height: 100vh;   
+}
+
+.i-left{
+    flex: 1;    
+}
+.i-right{
+    flex: 1;   
+}
+
+.i-left-wrapper{
+    color: #4617ff;
+    padding: 130px;    
+}
+.i-name{
+    font-size: 55px;   
+}
+.i-name-second{
+    display: flex;
+    align-items: center;
+    gap: 15px;    
+}
+.i-name-second-1{
+    font-size: 55px;
+    color: rgba(70, 23, 255, 0.5);
+}
+.i-welcome1{
+    color: rgba(70, 23, 255, 0.5);
+    font-size: 15px;
+}
+.i-welcome2{
+    color: #A8ABB3;
+    font-size: 15px;
+}
+
+.i-title{
+    height: 60px;
+    overflow: hidden;
+}
+
+/* Animation 1 */
+
+.i-title-wrapper{
+    height: 80%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    align-content: space-around;
+    animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    25%{
+        transform: translateX(-50px);
+    }
+    50%{
+        transform: translateX(-100px);
+    }
+    75%{
+        transform: translateX(-150px);
+    }
+    100%{
+        transform: translateX(-200px);}
+}
+/* End animation 1 */
+
+.i-title-item{
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(6, 4, 4);
+    display: flex;
+    align-items: center;    
+    background: rgba(208, 199, 247, 0.85);
+    width: 35%;
+}
+.i-img{
+    margin-top: 100px;
+    width: 60%;
+    height: 70%;  
+    border-radius: 120px 120px 0px 0px;    
+}
+
+/* Buttons */
+.i-buttons{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    
+    margin: 40px 0px 0 80px;
+    height: 50px;
+}
+.i-buttons-hire{
+    background: rgba(70, 23, 255, 0.85);
+    box-shadow: 1px 11px 39px rgba(52, 5, 245, 0.25);
+    border: 1px solid #4617FF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    width: 30%;
+    height: 60%;
+    cursor: pointer;
+}
+.i-buttons-project{
+    background: #FFFFFF;
+    border: 1px solid #4617FF;
+    border-radius: 5px;
+    color: #4617ff;
+    width: 50%;
+    height: 60%;
+    cursor: pointer;
+}
+.i-icons{
+    width: 20px;
+}
+.i-icons-css{
+    width: 45px;
+}
+
+/* End Buttons */
+
+@media screen and (max-width: 480px){
+    .i{
+       
+       
+        flex-direction: column;
+    }
+    .i-left-wrapper{
+        margin: 100px 0 0 30px;
+        padding: 0;        
+    }
+    .i-name{
+        font-size: 40px;
+        margin-top: 40px;
+        position: absolute;
+    }
+    .i-name-second{
+    
+        padding-top: 60px;
+        
+    }
+    .i-name-second-1{
+        font-size: 40px;
+        margin-top: 40px;
+
+    }
+    .i-name-second-2{
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    .i-welcome2{
+        width: 200px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .i-buttons{
+        width: 235px;
+        display: flex;
+        flex-direction: column;
+        
+        padding: 170px 0px 0 0px;
+        position: absolute;
+    }
+    .i-icons{
+        position: absolute;
+        padding-bottom: 20px;
+    }
+    .i-img{
+        position: absolute;
+        width: 130px;
+        height: 20vh;
+        margin: 0 0px 0 162px;
+        
+        
+    }
+}

@@ -1,0 +1,82 @@
+
+
+.p{
+    height: 100vh;
+    display: flex;
+    
+}
+.p-left{
+    flex: 1;
+    padding: 150px 0px 0px 135px;
+    display: flex;    
+}
+.p-left-text{
+    color: rgba(70, 23, 255, 0.5);
+    font-size: 15px;    
+}
+.p-right{
+    flex: 7;
+    display: flex;
+    align-items: center;
+}
+.p-right-leftarrow{
+    background-color: rgb(217, 239, 239);
+}
+.p-right-center{
+    background-color: rgb(242, 251, 251);
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.p-card-bg{
+    position: absolute;
+    margin-left: 10px;
+    
+    width: 44%;
+    height: 48vh;
+    
+    background: rgba(70, 23, 255, 0.07);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.p-card{
+    width: 60%;
+    height: 50vh;
+    border-radius: 10px;    
+}
+.p-img{
+    position: relative;
+    width: 150%;
+    height: 100%;
+    margin-top: 10px;
+    
+    object-fit: cover;
+}
+.p-card-text{
+    font-size: 15px;
+
+}
+.p-button-hire{
+    background: rgba(70, 23, 255, 0.85);
+    box-shadow: 1px 11px 39px rgba(52, 5, 245, 0.25);
+    border: 1px solid #4617FF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    width: 25%;
+    height: 150%;
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+.p-right-arrowright{
+    background-color: rgb(214, 191, 18);
+    width: 15%;
+    height: 59%;
+}
+
+@media screen and (max-width: 480px){
+    .p{
+        display: flex;
+        flex-direction: column;
+    }
+}

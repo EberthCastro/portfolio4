@@ -1,0 +1,94 @@
+.c{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-up{
+    flex: 1;    
+}
+
+.c-text{
+    color: rgba(70, 23, 255, 0.5);
+    font-size: 15px;
+    padding-top: 140px;
+    margin-left: 134px;
+    width: 20%;
+}
+.c-down{
+    width: 74%;
+    height: 10vh;
+    margin-left: 134px;
+    flex: 4;    
+}
+
+form{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;      
+    gap: 15px;
+}
+
+input{
+    width: 20%;
+    height: 30px;
+    border-color: blueviolet;         
+    border-radius: 10px;
+}
+.c-down-first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.c-input1{
+    width: 48%;    
+}
+.c-input2{
+    width: 99%;
+}
+.c-input3{
+    width: 99%;
+    height: 20vh;
+}
+textarea{
+    width: 500px;
+    border-color: blueviolet;
+    border-radius: 10px;
+}
+
+.c-button{
+    background: rgba(70, 23, 255, 0.85);
+    border: none;
+    box-shadow: 1px 11px 39px rgba(52, 5, 245, 0.25);
+    border-radius: 5px;
+    color: #fff;
+    width: 170px;
+    height: 5vh;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px){
+    .c{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .c-text{
+        margin: 0 53px;
+    }
+    .c-down-first{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;        
+    }
+    .c-down{
+        width: 74%;
+        height: 10vh;
+        margin-left: 54px;
+           
+    }
+    .c-input1{
+        width: 99%;
+        
+    }
+}
