@@ -52,21 +52,16 @@
     gap: 20px;
     align-items: center;
     align-content: space-around;
-    animation: move 10s ease-in-out infinite alternate;
+    animation: slide-slow 2s;
 }
 
-@keyframes move {
-    25%{
-        transform: translateX(-50px);
-    }
-    50%{
-        transform: translateX(-100px);
-    }
-    75%{
-        transform: translateX(-150px);
-    }
-    100%{
-        transform: translateX(-200px);}
+@keyframes slide-slow {
+    from {
+         margin-left: 100%; 
+        } 
+    to {
+         margin-left: 0%;
+         }  
 }
 /* End animation 1 */
 

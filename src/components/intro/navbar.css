@@ -72,11 +72,15 @@ div header nav a:hover{
         height: 35%;
         width: 80%;
         display: flex;
-        flex-direction: column;        
-        background-color: #3152FF;
+        flex-direction: column;    
         transition: 1s;
-        transform: translateY(-2vh);
+        transform: translateY(-100vh);
+        
     }
+    .links{
+        visibility: hidden;
+    }
+
     div header .responsive_nav{
         transform: none;
     }
@@ -91,16 +95,9 @@ div header nav a:hover{
     nav a{
         font-size: 1.5rem;
     }
-    .logo{
-        padding: 0 0 0 0;
-        margin: 0 0 0 0;
-    }
-    .links{
-        padding: 0 0 0 0;
-        margin: 0 0 0 0;
-    }
     .navbar{
         padding: 0 0 0 0;
-        margin: 0 0 0 0;
+        margin: 0 10px 0 5px;
+        gap: 50px;
     }
 }
