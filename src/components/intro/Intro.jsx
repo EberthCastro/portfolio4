@@ -5,6 +5,8 @@ import git from "../../images/github512.png"
 import css from "../../images/CSS512.png"
 import js from "../../images/JavaScript512.png"
 import react from "../../images/react512.png"
+import Avedorada from "../Avedorada/Avedorada"
+import Aveplateada from "../Aveplateada/Aveplateada"
 
 
 const intro = () => {
@@ -28,7 +30,7 @@ const intro = () => {
                         </div>
                     
                         
-                        <img src={git} alt="" href=""  className="i-icons"/>
+                        {/* <img src={git} alt="" href=""  className="i-icons"/> */}
                         <img src={css} alt="" href=""  className="i-icons-css"/>
                         <img src={js} alt="" href=""  className="i-icons"/>
                         <img src={react} alt="" href=""  className="i-icons"/>
@@ -36,7 +38,7 @@ const intro = () => {
                     </div>
                 </div>
                 <div >
-                    <h1></h1>
+                    <h1>...</h1>
                     
                 </div>
                 <div className="i-buttons">
@@ -47,8 +49,10 @@ const intro = () => {
             </div>
             
         </div>
+
         <div className="i-right">            
-                <img src={Me} alt="" className="i-img"/>            
+                {/* <img src={Me} alt="" className="i-img"/>             */}
+                <Aveplateada/>
         </div>
 
     </div>

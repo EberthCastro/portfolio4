@@ -4,7 +4,8 @@
 
 .i{
     display: flex;
-    height: 100vh;   
+    height: 85vh; 
+    background-color: black;  
 }
 
 .i-left{
@@ -16,7 +17,8 @@
 
 .i-left-wrapper{
     color: #4617ff;
-    padding: 130px;    
+    padding-left: 130px;
+    padding-top: 10px;    
 }
 .i-name{
     font-size: 55px;   
@@ -35,7 +37,7 @@
     font-size: 15px;
 }
 .i-welcome2{
-    color: #A8ABB3;
+    color: #ffffff;
     font-size: 15px;
 }
 

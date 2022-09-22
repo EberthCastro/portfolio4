@@ -20,7 +20,10 @@
     align-items: center;
 }
 .p-right-leftarrow{
-    background-color: rgb(217, 239, 239);
+    
+    border-radius: 5px;
+    
+    color: #4617FF;
 }
 .p-right-center{
     
@@ -37,10 +40,13 @@
     height: 48vh;
     
     background: rgba(70, 23, 255, 0.07);
-    transform: matrix(1, 0, 0, -1, 0, 0);
+    /* transform: matrix(1, 0, 0, -1, 0, 0); */
 }
 .p-card{
-    width: 60%;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 5%;
+    width: 70%;
     height: 50vh;
     border-radius: 10px;    
 }
@@ -48,8 +54,7 @@
     position: relative;
     width: 150%;
     height: 100%;
-    margin-top: 9px;
-    
+    margin-top: 9px;    
     object-fit: cover;
 }
 .p-card-text{
@@ -69,9 +74,12 @@
 }
 
 .p-right-arrowright{
+    margin-left: 31%;
     width: 15%;
     height: 3%;
+    color: #4617FF;
 }
+
 
 @media screen and (max-width: 480px){
     .p{

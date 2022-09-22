@@ -1,7 +1,7 @@
 
 .nav{
-    
-    width: 200vh;
+    background-color: black;
+    width: 100%;
 }
 
 .navbar{
@@ -23,8 +23,8 @@ font-style: normal;
 font-weight: 400;
 font-size: 67px;
 line-height: 83px;
-color: rgba(30, 36, 56, 0.86);
-text-shadow: 5px 10px 4px #3152FF;
+color: rgba(226, 227, 233, 0.86);
+text-shadow: 5px 1px 4px #4617ff;
 }
 
 .links{
@@ -39,11 +39,12 @@ text-shadow: 5px 10px 4px #3152FF;
 
 .links a{
     text-decoration: none;
-    color: black;
+    color: rgb(245, 241, 241);
+    text-decoration: solid;
 }
 
 div header nav a:hover{
-    color: #3152FF;
+    color: #4617ff;
     
 }
 .nav-btn{
